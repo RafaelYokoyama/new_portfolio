@@ -8,19 +8,19 @@
 </h1>
 
 <p align="center">
-  <img alt="Github top language" src="https://img.shields.io/github/languages/top/RafaelYokoyama/new-portfolio?color=56BEB8">
+  <img alt="Github top language" src="https://img.shields.io/github/languages/top/RafaelYokoyama/new_portfolio?color=56BEB8">
 
-  <img alt="Github language count" src="https://img.shields.io/github/languages/count/RafaelYokoyama/new-portfolio?color=56BEB8">
+  <img alt="Github language count" src="https://img.shields.io/github/languages/count/RafaelYokoyama/new_portfolio?color=56BEB8">
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/RafaelYokoyama/new-portfolio?color=56BEB8">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/RafaelYokoyama/new_portfolio?color=56BEB8">
 
-  <img alt="License" src="https://img.shields.io/github/license/RafaelYokoyama/new-portfolio?color=56BEB8">
+  <img alt="License" src="https://img.shields.io/github/license/RafaelYokoyama/new_portfolio?color=56BEB8">
 
-   <img alt="Github issues" src="https://img.shields.io/github/issues/RafaelYokoyama/new-portfolio?color=56BEB8" />
+   <img alt="Github issues" src="https://img.shields.io/github/issues/RafaelYokoyama/new_portfolio?color=56BEB8" />
 
-   <img alt="Github forks" src="https://img.shields.io/github/forks/RafaelYokoyama/new-portfolio?color=56BEB8" />
+   <img alt="Github forks" src="https://img.shields.io/github/forks/RafaelYokoyama/new_portfolio?color=56BEB8" />
 
-   <img alt="Github stars" src="https://img.shields.io/github/stars/RafaelYokoyama/new-portfolio?color=56BEB8" /> 
+   <img alt="Github stars" src="https://img.shields.io/github/stars/RafaelYokoyama/new_portfolio?color=56BEB8" /> 
 </p>
 
 <img src="/src/.github/img.png" alt="foto portfolio" />
@@ -74,6 +74,10 @@ $ yarn start or npm start
     </td>
   </tr>
 </table>
+
+
+##  🗣Suggestions 
+If you have any suggestions or want a bug report. Thank you very much for your cooperation! 🤝
 
 ## :memo: License
 
