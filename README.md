@@ -29,7 +29,7 @@
 
 ### ⚙️ Link
 
-Link da aplicação: <a>https://rafael-yokoyama.netlify.app/</a>
+application link: <a>https://portfolio-rafael-yokoyama.netlify.app/</a>
 
 ## :rocket: Technologies
 
@@ -50,9 +50,9 @@ Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) an
 
 ```bash
 # Clone this project
-$ git clone https://github.com/Rafael-Yokoyama/new-portfolio.git
+$ git clone https://github.com/Rafael-Yokoyama/new_portfolio.git
 # Access
-$ cd new-portfolio
+$ cd new_portfolio
 # Install dependencies
 $ yarn or npm
 # Run the project
