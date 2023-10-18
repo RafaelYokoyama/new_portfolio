@@ -1,5 +1,9 @@
 import perfil from "./assets/perfil.svg";
 import rede from "./assets/rede.png";
+import psi from "./assets/psi.png";
+import braids from "./assets/braids.png";
+import royal from "./assets/royal.png";
+
 export const featuredList = [
   {
     id: 1,
@@ -9,19 +13,23 @@ export const featuredList = [
   },
   {
     id: 2,
-    title: "Em breve",
-    img: `${perfil}`,
+    title: " Site Profissonal  psicológica Suélen Lima ",
+    img: `${psi}`,
+    link: "https://psisuelenlima.netlify.app/"
   },
   {
     id: 3,
-    title: "Em breve",
-    img: `${perfil}`,
+    title: "Site Pessoal profissonal de Braids",
+    img: `${braids}`,
+    link: 'https://fariah-braids.netlify.app/'
   },
   {
     id: 4,
-    title: "Em breve",
-    img: `${perfil}`,
+    title: "Site para discord royal",
+    img: `${royal}`,
+    link: 'https://royalgaming.netlify.app/'
   },
+
 ];
 
 export const webList = [
@@ -33,14 +41,23 @@ export const webList = [
   },
   {
     id: 2,
-    title: "Em breve",
-    img: `${perfil}`,
+    title: " Site pessoal  psicológica Suélen Lima ",
+    img: `${psi}`,
+    link: "https://psisuelenlima.netlify.app/"
   },
   {
     id: 3,
-    title: "Em breve",
-    img: `${perfil}`,
+    title: "Site Pessoal profissonal de Braids",
+    img: `${braids}`,
+    link: 'https://fariah-braids.netlify.app/'
   },
+  {
+    id: 4,
+    title: "Site para discord royal",
+    img: `${royal}`,
+    link: 'https://royalgaming.netlify.app/'
+  },
+
 ];
 
 export const appList = [
@@ -48,22 +65,7 @@ export const appList = [
     id: 1,
     title: "Em breve",
     img: `${perfil}`,
-    link: "https://stackoverflow.com/questions/44147937/property-does-not-exist-on-type-never",
-  },
-  {
-    id: 2,
-    title: "Em breve",
-    img: `${perfil}`,
-  },
-  {
-    id: 3,
-    title: "Em breve",
-    img: `${perfil}`,
-  },
-  {
-    id: 4,
-    title: "Em breve",
-    img: `${perfil}`,
+    link: "",
   },
 ];
 
@@ -72,12 +74,7 @@ export const designList = [
     id: 1,
     title: "Em breve",
     img: `${perfil}`,
-    link: "https://stackoverflow.com/questions/44147937/property-does-not-exist-on-type-never",
-  },
-  {
-    id: 2,
-    title: "Em breve",
-    img: `${perfil}`,
+    link: "",
   },
 ];
 
@@ -86,16 +83,6 @@ export const brandingList = [
     id: 1,
     title: "Em breve",
     img: `${perfil}`,
-    link: "https://stackoverflow.com/questions/44147937/property-does-not-exist-on-type-never",
-  },
-  {
-    id: 2,
-    title: "Em breve",
-    img: `${perfil}`,
-  },
-  {
-    id: 3,
-    title: "Em breve",
-    img: `${perfil}`,
+    link: "",
   },
 ];
