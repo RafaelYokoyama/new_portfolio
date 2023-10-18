@@ -26,7 +26,7 @@ const AboutMim = () => {
               font={"18px"}
               text={`
               Meu nome é Rafael, 
-               tenho 22 anos, moro no Brasil especificamente em Itatiba-SP. 
+               tenho 23 anos, moro no Brasil especificamente em Itatiba-SP. 
             `}
               Color={"#fff"}
               padding={"2px"}
@@ -77,17 +77,17 @@ const AboutMim = () => {
           <div className="row hidden relative grid-photos">
             <div className="blur1"></div>
             <div className="grid-nobreak-6 grid-photo-1">
-            <img src={foto6} className="photo my-1 px-1" alt="" />
+              <img src={foto6} className="photo my-1 px-1" alt="" />
               <img src={foto1} className="photo my-1 px-1" alt="" />
               <img src={foto3} className="photo my-1 px-1" alt="" />
-              
+
             </div>
             <div className="grid-nobreak-6 grid-photo-2">
-          
+
               <img src={foto5} className="photo my-1 px-1" alt="" />
               <img src={foto2} className="photo my-1 px-1" alt="" />
               <img src={foto4} className="photo my-1 px-1" alt="" />
-            
+
             </div>
             <div className="blur2"></div>
           </div>

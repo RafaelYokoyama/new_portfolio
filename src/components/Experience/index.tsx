@@ -5,7 +5,7 @@ import {
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import {GiSandsOfTime } from "react-icons/gi";
+import { GiSandsOfTime } from "react-icons/gi";
 import { MdWorkOff } from "react-icons/md";
 
 import logo from "../../assets/logo.svg";
@@ -18,6 +18,17 @@ const Experience = () => {
       </div>
 
       <VerticalTimeline>
+
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date="2 anos de experiência "
+          iconStyle={{
+            background:
+              "#485DA6",
+            color: "#000",
+          }}
+          icon={<GiSandsOfTime />}
+        ></VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           contentStyle={{
@@ -26,7 +37,7 @@ const Experience = () => {
             color: "#fff",
           }}
           contentArrowStyle={{ borderRight: "7px solid  #1a7f81" }}
-          date="2022 - atual"
+          date="out/2022 - out/2023"
           iconStyle={{
             background:
               "linear-gradient(to right top, #6d327c, #485DA6, #00a1ba, #00BF98, #36C486",
@@ -34,14 +45,14 @@ const Experience = () => {
           icon={<MdWorkOff />}
         >
           <div className="skils-span">
-            <span>React / Vue</span>
+            <span>Next / Typescript</span>
           </div>
 
-          <h3 className="vertical-timeline-element-title">Smart Innovation </h3>
+          <h3 className="vertical-timeline-element-title">Pureskills </h3>
           <h4 className="vertical-timeline-element-subtitle">
-            Desenvolvedor de sistemas
+            Desenvolvedor Front end
           </h4>
-      
+
           <div className="skils">
             <div className="w-100 hidden  py-3" id="section-03">
               <h6 className="slider-text-1 flex-start-row">
@@ -74,7 +85,7 @@ const Experience = () => {
                       <stop
                         offset="1"
                         stopColor="#538BF0"
-                      stopOpacity="0"
+                        stopOpacity="0"
                       ></stop>
                     </linearGradient>
                     <linearGradient
@@ -89,7 +100,291 @@ const Experience = () => {
                       <stop
                         offset="1"
                         stopColor="#538BF0"
-                      stopOpacity="0"
+                        stopOpacity="0"
+                      ></stop>
+                    </linearGradient>
+                  </defs>
+                </svg>
+                Next
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="32"
+                  height="32"
+                  viewBox="0 0 32 32"
+                  fill="none"
+                  data-inject-url="https://www.nyousefali.com.br/svg/icon-4star.svg"
+                  className="w-auto mx"
+                  style={{ minWidth: "32px" }}
+                >
+                  <path
+                    d="M16.4899 7.89358L17.584 13.2467C17.7044 13.8355 18.1645 14.2956 18.7533 14.416L24.1064 15.5101C24.6396 15.6191 24.6396 16.3809 24.1064 16.4899L18.7533 17.584C18.1645 17.7044 17.7044 18.1645 17.584 18.7533L16.4899 24.1064C16.3809 24.6396 15.6191 24.6396 15.5101 24.1064L14.416 18.7533C14.2956 18.1645 13.8355 17.7044 13.2467 17.584L7.89359 16.4899C7.36041 16.3809 7.36042 15.6191 7.89358 15.5101L13.2467 14.416C13.8355 14.2956 14.2956 13.8355 14.416 13.2467L15.5101 7.89359C15.6191 7.36041 16.3809 7.36042 16.4899 7.89358Z"
+                    fill="url(#paint0_linear--inject-29)"
+                    stroke="url(#paint1_linear--inject-29)"
+                  ></path>
+                  <defs>
+                    <linearGradient
+                      id="paint0_linear--inject-29"
+                      x1="29"
+                      y1="3"
+                      x2="3"
+                      y2="29"
+                      gradientUnits="userSpaceOnUse"
+                    >
+                      <stop stopColor="#2DC7ED"></stop>
+                      <stop
+                        offset="1"
+                        stopColor="#538BF0"
+                        stopOpacity="0"
+                      ></stop>
+                    </linearGradient>
+                    <linearGradient
+                      id="paint1_linear--inject-29"
+                      x1="29"
+                      y1="3"
+                      x2="3"
+                      y2="29"
+                      gradientUnits="userSpaceOnUse"
+                    >
+                      <stop stopColor="#2DC7ED"></stop>
+                      <stop
+                        offset="1"
+                        stopColor="#538BF0"
+                        stopOpacity="0"
+                      ></stop>
+                    </linearGradient>
+                  </defs>
+                </svg>
+                JavaScript
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="32"
+                  height="32"
+                  viewBox="0 0 32 32"
+                  fill="none"
+                  data-inject-url="https://www.nyousefali.com.br/svg/icon-4star.svg"
+                  className="w-auto mx"
+                  style={{ minWidth: "32px" }}
+                >
+                  <path
+                    d="M16.4899 7.89358L17.584 13.2467C17.7044 13.8355 18.1645 14.2956 18.7533 14.416L24.1064 15.5101C24.6396 15.6191 24.6396 16.3809 24.1064 16.4899L18.7533 17.584C18.1645 17.7044 17.7044 18.1645 17.584 18.7533L16.4899 24.1064C16.3809 24.6396 15.6191 24.6396 15.5101 24.1064L14.416 18.7533C14.2956 18.1645 13.8355 17.7044 13.2467 17.584L7.89359 16.4899C7.36041 16.3809 7.36042 15.6191 7.89358 15.5101L13.2467 14.416C13.8355 14.2956 14.2956 13.8355 14.416 13.2467L15.5101 7.89359C15.6191 7.36041 16.3809 7.36042 16.4899 7.89358Z"
+                    fill="url(#paint0_linear--inject-14)"
+                    stroke="url(#paint1_linear--inject-14)"
+                  ></path>
+                  <defs>
+                    <linearGradient
+                      id="paint0_linear--inject-14"
+                      x1="29"
+                      y1="3"
+                      x2="3"
+                      y2="29"
+                      gradientUnits="userSpaceOnUse"
+                    >
+                      <stop stopColor="#2DC7ED"></stop>
+                      <stop
+                        offset="1"
+                        stopColor="#538BF0"
+                        stopOpacity="0"
+                      ></stop>
+                    </linearGradient>
+                    <linearGradient
+                      id="paint1_linear--inject-14"
+                      x1="29"
+                      y1="3"
+                      x2="3"
+                      y2="29"
+                      gradientUnits="userSpaceOnUse"
+                    >
+                      <stop stopColor="#2DC7ED"></stop>
+                      <stop
+                        offset="1"
+                        stopColor="#538BF0"
+                        stopOpacity="0"
+                      ></stop>
+                    </linearGradient>
+                  </defs>
+                </svg>
+                TypeScripty
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="32"
+                  height="32"
+                  viewBox="0 0 32 32"
+                  fill="none"
+                  data-inject-url="https://www.nyousefali.com.br/svg/icon-4star.svg"
+                  className="w-auto mx"
+                  style={{ minWidth: "32px" }}
+                >
+                  <path
+                    d="M16.4899 7.89358L17.584 13.2467C17.7044 13.8355 18.1645 14.2956 18.7533 14.416L24.1064 15.5101C24.6396 15.6191 24.6396 16.3809 24.1064 16.4899L18.7533 17.584C18.1645 17.7044 17.7044 18.1645 17.584 18.7533L16.4899 24.1064C16.3809 24.6396 15.6191 24.6396 15.5101 24.1064L14.416 18.7533C14.2956 18.1645 13.8355 17.7044 13.2467 17.584L7.89359 16.4899C7.36041 16.3809 7.36042 15.6191 7.89358 15.5101L13.2467 14.416C13.8355 14.2956 14.2956 13.8355 14.416 13.2467L15.5101 7.89359C15.6191 7.36041 16.3809 7.36042 16.4899 7.89358Z"
+                    fill="url(#paint0_linear--inject-37)"
+                    stroke="url(#paint1_linear--inject-37)"
+                  ></path>
+                  <defs>
+                    <linearGradient
+                      id="paint0_linear--inject-37"
+                      x1="29"
+                      y1="3"
+                      x2="3"
+                      y2="29"
+                      gradientUnits="userSpaceOnUse"
+                    >
+                      <stop stopColor="#2DC7ED"></stop>
+                      <stop
+                        offset="1"
+                        stopColor="#538BF0"
+                        stopOpacity="0"
+                      ></stop>
+                    </linearGradient>
+                    <linearGradient
+                      id="paint1_linear--inject-37"
+                      x1="29"
+                      y1="3"
+                      x2="3"
+                      y2="29"
+                      gradientUnits="userSpaceOnUse"
+                    >
+                      <stop stopColor="#2DC7ED"></stop>
+                      <stop
+                        offset="1"
+                        stopColor="#538BF0"
+                        stopOpacity="0"
+                      ></stop>
+                    </linearGradient>
+                  </defs>
+                </svg>
+                Developer Front-End
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="32"
+                  height="32"
+                  viewBox="0 0 32 32"
+                  fill="none"
+                  data-inject-url="https://www.nyousefali.com.br/svg/icon-4star.svg"
+                  className="w-auto mx"
+                  style={{ minWidth: "32px" }}
+                >
+                  <path
+                    d="M16.4899 7.89358L17.584 13.2467C17.7044 13.8355 18.1645 14.2956 18.7533 14.416L24.1064 15.5101C24.6396 15.6191 24.6396 16.3809 24.1064 16.4899L18.7533 17.584C18.1645 17.7044 17.7044 18.1645 17.584 18.7533L16.4899 24.1064C16.3809 24.6396 15.6191 24.6396 15.5101 24.1064L14.416 18.7533C14.2956 18.1645 13.8355 17.7044 13.2467 17.584L7.89359 16.4899C7.36041 16.3809 7.36042 15.6191 7.89358 15.5101L13.2467 14.416C13.8355 14.2956 14.2956 13.8355 14.416 13.2467L15.5101 7.89359C15.6191 7.36041 16.3809 7.36042 16.4899 7.89358Z"
+                    fill="url(#paint0_linear--inject-30)"
+                    stroke="url(#paint1_linear--inject-30)"
+                  ></path>
+                  <defs>
+                    <linearGradient
+                      id="paint0_linear--inject-30"
+                      x1="29"
+                      y1="3"
+                      x2="3"
+                      y2="29"
+                      gradientUnits="userSpaceOnUse"
+                    >
+                      <stop stopColor="#2DC7ED"></stop>
+                      <stop
+                        offset="1"
+                        stopColor="#538BF0"
+                        stopOpacity="0"
+                      ></stop>
+                    </linearGradient>
+                    <linearGradient
+                      id="paint1_linear--inject-30"
+                      x1="29"
+                      y1="3"
+                      x2="3"
+                      y2="29"
+                      gradientUnits="userSpaceOnUse"
+                    >
+                      <stop stopColor="#2DC7ED"></stop>
+                      <stop
+                        offset="1"
+                        stopColor="#538BF0"
+                        stopOpacity="0"
+                      ></stop>
+                    </linearGradient>
+                  </defs>
+                </svg>
+              </h6>
+            </div>
+            {/* <span>React - Vue - TypeScript - JavaScript - Sass - Styled Components - dhsahdshadhsa</span> */}
+            {/* <span>Vue</span>
+  <span>Tyspanescrispant</span>
+  <span>Javascrispant</span>
+  <span>Sass</span>
+  <span>Styled Comspononents</span> */}
+          </div>
+        </VerticalTimelineElement>
+
+
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          contentStyle={{
+            background:
+              "linear-gradient(to right top, #6d327c, #485DA6, #00a1ba, #00BF98, #36C486",
+            color: "#fff",
+          }}
+          contentArrowStyle={{ borderRight: "7px solid  #1a7f81" }}
+          date="jan/2022 - out/2022"
+          iconStyle={{
+            background:
+              "linear-gradient(to right top, #6d327c, #485DA6, #00a1ba, #00BF98, #36C486",
+          }}
+          icon={<MdWorkOff />}
+        >
+          <div className="skils-span">
+            <span>React / Vue</span>
+          </div>
+
+          <h3 className="vertical-timeline-element-title">Smart Innovation </h3>
+          <h4 className="vertical-timeline-element-subtitle">
+            Desenvolvedor de sistemas
+          </h4>
+
+          <div className="skils">
+            <div className="w-100 hidden  py-3" id="section-03">
+              <h6 className="slider-text-1 flex-start-row">
+                React
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="32"
+                  height="32"
+                  viewBox="0 0 32 32"
+                  fill="none"
+                  data-inject-url="https://www.nyousefali.com.br/svg/icon-4star.svg"
+                  className="w-auto mx"
+                  style={{ minWidth: "32px" }}
+                >
+                  <path
+                    d="M16.4899 7.89358L17.584 13.2467C17.7044 13.8355 18.1645 14.2956 18.7533 14.416L24.1064 15.5101C24.6396 15.6191 24.6396 16.3809 24.1064 16.4899L18.7533 17.584C18.1645 17.7044 17.7044 18.1645 17.584 18.7533L16.4899 24.1064C16.3809 24.6396 15.6191 24.6396 15.5101 24.1064L14.416 18.7533C14.2956 18.1645 13.8355 17.7044 13.2467 17.584L7.89359 16.4899C7.36041 16.3809 7.36042 15.6191 7.89358 15.5101L13.2467 14.416C13.8355 14.2956 14.2956 13.8355 14.416 13.2467L15.5101 7.89359C15.6191 7.36041 16.3809 7.36042 16.4899 7.89358Z"
+                    fill="url(#paint0_linear--inject-25)"
+                    stroke="url(#paint1_linear--inject-25)"
+                  ></path>
+                  <defs>
+                    <linearGradient
+                      id="paint0_linear--inject-25"
+                      x1="29"
+                      y1="3"
+                      x2="3"
+                      y2="29"
+                      gradientUnits="userSpaceOnUse"
+                    >
+                      <stop stopColor="#2DC7ED"></stop>
+                      <stop
+                        offset="1"
+                        stopColor="#538BF0"
+                        stopOpacity="0"
+                      ></stop>
+                    </linearGradient>
+                    <linearGradient
+                      id="paint1_linear--inject-25"
+                      x1="29"
+                      y1="3"
+                      x2="3"
+                      y2="29"
+                      gradientUnits="userSpaceOnUse"
+                    >
+                      <stop stopColor="#2DC7ED"></stop>
+                      <stop
+                        offset="1"
+                        stopColor="#538BF0"
+                        stopOpacity="0"
                       ></stop>
                     </linearGradient>
                   </defs>
@@ -123,7 +418,7 @@ const Experience = () => {
                       <stop
                         offset="1"
                         stopColor="#538BF0"
-                      stopOpacity="0"
+                        stopOpacity="0"
                       ></stop>
                     </linearGradient>
                     <linearGradient
@@ -138,7 +433,7 @@ const Experience = () => {
                       <stop
                         offset="1"
                         stopColor="#538BF0"
-                      stopOpacity="0"
+                        stopOpacity="0"
                       ></stop>
                     </linearGradient>
                   </defs>
@@ -172,7 +467,7 @@ const Experience = () => {
                       <stop
                         offset="1"
                         stopColor="#538BF0"
-                      stopOpacity="0"
+                        stopOpacity="0"
                       ></stop>
                     </linearGradient>
                     <linearGradient
@@ -187,7 +482,7 @@ const Experience = () => {
                       <stop
                         offset="1"
                         stopColor="#538BF0"
-                      stopOpacity="0"
+                        stopOpacity="0"
                       ></stop>
                     </linearGradient>
                   </defs>
@@ -221,7 +516,7 @@ const Experience = () => {
                       <stop
                         offset="1"
                         stopColor="#538BF0"
-                      stopOpacity="0"
+                        stopOpacity="0"
                       ></stop>
                     </linearGradient>
                     <linearGradient
@@ -236,7 +531,7 @@ const Experience = () => {
                       <stop
                         offset="1"
                         stopColor="#538BF0"
-                      stopOpacity="0"
+                        stopOpacity="0"
                       ></stop>
                     </linearGradient>
                   </defs>
@@ -270,7 +565,7 @@ const Experience = () => {
                       <stop
                         offset="1"
                         stopColor="#538BF0"
-                      stopOpacity="0"
+                        stopOpacity="0"
                       ></stop>
                     </linearGradient>
                     <linearGradient
@@ -285,7 +580,7 @@ const Experience = () => {
                       <stop
                         offset="1"
                         stopColor="#538BF0"
-                      stopOpacity="0"
+                        stopOpacity="0"
                       ></stop>
                     </linearGradient>
                   </defs>
@@ -306,287 +601,9 @@ const Experience = () => {
           contentStyle={{
             background:
               "linear-gradient(to right top, #6d327c, #485DA6, #00a1ba, #00BF98, #36C486",
-            color: "#fff",
           }}
           contentArrowStyle={{ borderRight: "7px solid  #1a7f81" }}
-          date="2021 - 2022"
-          iconStyle={{
-            background:
-              "linear-gradient(to right top, #6d327c, #485DA6, #00a1ba, #00BF98, #36C486",
-            color: "#fff",
-          }}
-          icon={<MdWorkOff />}
-        >
-          <div className="skils-span">
-            <span>React / Material ui</span>
-          </div>
-
-          <h3 className="vertical-timeline-element-title">Callflex</h3>
-          <h4 className="vertical-timeline-element-subtitle">
-            Desenvolvedor Júnior
-          </h4>
-        
-          <div className="skils">
-            <div className="w-100 hidden  py-3" id="section-03">
-              <h6 className="slider-text-1 flex-start-row">
-                React
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="32"
-                  height="32"
-                  viewBox="0 0 32 32"
-                  fill="none"
-                  data-inject-url="https://www.nyousefali.com.br/svg/icon-4star.svg"
-                  className="w-auto mx"
-                  style={{ minWidth: "32px" }}
-                >
-                  <path
-                    d="M16.4899 7.89358L17.584 13.2467C17.7044 13.8355 18.1645 14.2956 18.7533 14.416L24.1064 15.5101C24.6396 15.6191 24.6396 16.3809 24.1064 16.4899L18.7533 17.584C18.1645 17.7044 17.7044 18.1645 17.584 18.7533L16.4899 24.1064C16.3809 24.6396 15.6191 24.6396 15.5101 24.1064L14.416 18.7533C14.2956 18.1645 13.8355 17.7044 13.2467 17.584L7.89359 16.4899C7.36041 16.3809 7.36042 15.6191 7.89358 15.5101L13.2467 14.416C13.8355 14.2956 14.2956 13.8355 14.416 13.2467L15.5101 7.89359C15.6191 7.36041 16.3809 7.36042 16.4899 7.89358Z"
-                    fill="url(#paint0_linear--inject-25)"
-                    stroke="url(#paint1_linear--inject-25)"
-                  ></path>
-                  <defs>
-                    <linearGradient
-                      id="paint0_linear--inject-25"
-                      x1="29"
-                      y1="3"
-                      x2="3"
-                      y2="29"
-                      gradientUnits="userSpaceOnUse"
-                    >
-                      <stop stopColor="#2DC7ED"></stop>
-                      <stop
-                        offset="1"
-                        stopColor="#538BF0"
-                      stopOpacity="0"
-                      ></stop>
-                    </linearGradient>
-                    <linearGradient
-                      id="paint1_linear--inject-25"
-                      x1="29"
-                      y1="3"
-                      x2="3"
-                      y2="29"
-                      gradientUnits="userSpaceOnUse"
-                    >
-                      <stop stopColor="#2DC7ED"></stop>
-                      <stop
-                        offset="1"
-                        stopColor="#538BF0"
-                      stopOpacity="0"
-                      ></stop>
-                    </linearGradient>
-                  </defs>
-                </svg>
-                Material ui
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="32"
-                  height="32"
-                  viewBox="0 0 32 32"
-                  fill="none"
-                  data-inject-url="https://www.nyousefali.com.br/svg/icon-4star.svg"
-                  className="w-auto mx"
-                  style={{ minWidth: "32px" }}
-                >
-                  <path
-                    d="M16.4899 7.89358L17.584 13.2467C17.7044 13.8355 18.1645 14.2956 18.7533 14.416L24.1064 15.5101C24.6396 15.6191 24.6396 16.3809 24.1064 16.4899L18.7533 17.584C18.1645 17.7044 17.7044 18.1645 17.584 18.7533L16.4899 24.1064C16.3809 24.6396 15.6191 24.6396 15.5101 24.1064L14.416 18.7533C14.2956 18.1645 13.8355 17.7044 13.2467 17.584L7.89359 16.4899C7.36041 16.3809 7.36042 15.6191 7.89358 15.5101L13.2467 14.416C13.8355 14.2956 14.2956 13.8355 14.416 13.2467L15.5101 7.89359C15.6191 7.36041 16.3809 7.36042 16.4899 7.89358Z"
-                    fill="url(#paint0_linear--inject-29)"
-                    stroke="url(#paint1_linear--inject-29)"
-                  ></path>
-                  <defs>
-                    <linearGradient
-                      id="paint0_linear--inject-29"
-                      x1="29"
-                      y1="3"
-                      x2="3"
-                      y2="29"
-                      gradientUnits="userSpaceOnUse"
-                    >
-                      <stop stopColor="#2DC7ED"></stop>
-                      <stop
-                        offset="1"
-                        stopColor="#538BF0"
-                      stopOpacity="0"
-                      ></stop>
-                    </linearGradient>
-                    <linearGradient
-                      id="paint1_linear--inject-29"
-                      x1="29"
-                      y1="3"
-                      x2="3"
-                      y2="29"
-                      gradientUnits="userSpaceOnUse"
-                    >
-                      <stop stopColor="#2DC7ED"></stop>
-                      <stop
-                        offset="1"
-                        stopColor="#538BF0"
-                      stopOpacity="0"
-                      ></stop>
-                    </linearGradient>
-                  </defs>
-                </svg>
-                JavaScript
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="32"
-                  height="32"
-                  viewBox="0 0 32 32"
-                  fill="none"
-                  data-inject-url="https://www.nyousefali.com.br/svg/icon-4star.svg"
-                  className="w-auto mx"
-                  style={{ minWidth: "32px" }}
-                >
-                  <path
-                    d="M16.4899 7.89358L17.584 13.2467C17.7044 13.8355 18.1645 14.2956 18.7533 14.416L24.1064 15.5101C24.6396 15.6191 24.6396 16.3809 24.1064 16.4899L18.7533 17.584C18.1645 17.7044 17.7044 18.1645 17.584 18.7533L16.4899 24.1064C16.3809 24.6396 15.6191 24.6396 15.5101 24.1064L14.416 18.7533C14.2956 18.1645 13.8355 17.7044 13.2467 17.584L7.89359 16.4899C7.36041 16.3809 7.36042 15.6191 7.89358 15.5101L13.2467 14.416C13.8355 14.2956 14.2956 13.8355 14.416 13.2467L15.5101 7.89359C15.6191 7.36041 16.3809 7.36042 16.4899 7.89358Z"
-                    fill="url(#paint0_linear--inject-14)"
-                    stroke="url(#paint1_linear--inject-14)"
-                  ></path>
-                  <defs>
-                    <linearGradient
-                      id="paint0_linear--inject-14"
-                      x1="29"
-                      y1="3"
-                      x2="3"
-                      y2="29"
-                      gradientUnits="userSpaceOnUse"
-                    >
-                      <stop stopColor="#2DC7ED"></stop>
-                      <stop
-                        offset="1"
-                        stopColor="#538BF0"
-                      stopOpacity="0"
-                      ></stop>
-                    </linearGradient>
-                    <linearGradient
-                      id="paint1_linear--inject-14"
-                      x1="29"
-                      y1="3"
-                      x2="3"
-                      y2="29"
-                      gradientUnits="userSpaceOnUse"
-                    >
-                      <stop stopColor="#2DC7ED"></stop>
-                      <stop
-                        offset="1"
-                        stopColor="#538BF0"
-                      stopOpacity="0"
-                      ></stop>
-                    </linearGradient>
-                  </defs>
-                </svg>
-                TypeScripty
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="32"
-                  height="32"
-                  viewBox="0 0 32 32"
-                  fill="none"
-                  data-inject-url="https://www.nyousefali.com.br/svg/icon-4star.svg"
-                  className="w-auto mx"
-                  style={{ minWidth: "32px" }}
-                >
-                  <path
-                    d="M16.4899 7.89358L17.584 13.2467C17.7044 13.8355 18.1645 14.2956 18.7533 14.416L24.1064 15.5101C24.6396 15.6191 24.6396 16.3809 24.1064 16.4899L18.7533 17.584C18.1645 17.7044 17.7044 18.1645 17.584 18.7533L16.4899 24.1064C16.3809 24.6396 15.6191 24.6396 15.5101 24.1064L14.416 18.7533C14.2956 18.1645 13.8355 17.7044 13.2467 17.584L7.89359 16.4899C7.36041 16.3809 7.36042 15.6191 7.89358 15.5101L13.2467 14.416C13.8355 14.2956 14.2956 13.8355 14.416 13.2467L15.5101 7.89359C15.6191 7.36041 16.3809 7.36042 16.4899 7.89358Z"
-                    fill="url(#paint0_linear--inject-37)"
-                    stroke="url(#paint1_linear--inject-37)"
-                  ></path>
-                  <defs>
-                    <linearGradient
-                      id="paint0_linear--inject-37"
-                      x1="29"
-                      y1="3"
-                      x2="3"
-                      y2="29"
-                      gradientUnits="userSpaceOnUse"
-                    >
-                      <stop stopColor="#2DC7ED"></stop>
-                      <stop
-                        offset="1"
-                        stopColor="#538BF0"
-                      stopOpacity="0"
-                      ></stop>
-                    </linearGradient>
-                    <linearGradient
-                      id="paint1_linear--inject-37"
-                      x1="29"
-                      y1="3"
-                      x2="3"
-                      y2="29"
-                      gradientUnits="userSpaceOnUse"
-                    >
-                      <stop stopColor="#2DC7ED"></stop>
-                      <stop
-                        offset="1"
-                        stopColor="#538BF0"
-                      stopOpacity="0"
-                      ></stop>
-                    </linearGradient>
-                  </defs>
-                </svg>
-                Developer Front-End
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="32"
-                  height="32"
-                  viewBox="0 0 32 32"
-                  fill="none"
-                  data-inject-url="https://www.nyousefali.com.br/svg/icon-4star.svg"
-                  className="w-auto mx"
-                  style={{ minWidth: "32px" }}
-                >
-                  <path
-                    d="M16.4899 7.89358L17.584 13.2467C17.7044 13.8355 18.1645 14.2956 18.7533 14.416L24.1064 15.5101C24.6396 15.6191 24.6396 16.3809 24.1064 16.4899L18.7533 17.584C18.1645 17.7044 17.7044 18.1645 17.584 18.7533L16.4899 24.1064C16.3809 24.6396 15.6191 24.6396 15.5101 24.1064L14.416 18.7533C14.2956 18.1645 13.8355 17.7044 13.2467 17.584L7.89359 16.4899C7.36041 16.3809 7.36042 15.6191 7.89358 15.5101L13.2467 14.416C13.8355 14.2956 14.2956 13.8355 14.416 13.2467L15.5101 7.89359C15.6191 7.36041 16.3809 7.36042 16.4899 7.89358Z"
-                    fill="url(#paint0_linear--inject-30)"
-                    stroke="url(#paint1_linear--inject-30)"
-                  ></path>
-                  <defs>
-                    <linearGradient
-                      id="paint0_linear--inject-30"
-                      x1="29"
-                      y1="3"
-                      x2="3"
-                      y2="29"
-                      gradientUnits="userSpaceOnUse"
-                    >
-                      <stop stopColor="#2DC7ED"></stop>
-                      <stop
-                        offset="1"
-                        stopColor="#538BF0"
-                      stopOpacity="0"
-                      ></stop>
-                    </linearGradient>
-                    <linearGradient
-                      id="paint1_linear--inject-30"
-                      x1="29"
-                      y1="3"
-                      x2="3"
-                      y2="29"
-                      gradientUnits="userSpaceOnUse"
-                    >
-                      <stop stopColor="#2DC7ED"></stop>
-                      <stop
-                        offset="1"
-                        stopColor="#538BF0"
-                      stopOpacity="0"
-                      ></stop>
-                    </linearGradient>
-                  </defs>
-                </svg>
-              </h6>
-            </div>
-         
-          </div>
-        </VerticalTimelineElement>
-        <VerticalTimelineElement
-          className="vertical-timeline-element--work"
-          contentStyle={{
-            background:
-              "linear-gradient(to right top, #6d327c, #485DA6, #00a1ba, #00BF98, #36C486",
-          }}
-          contentArrowStyle={{ borderRight: "7px solid  #1a7f81" }}
-          date="2021-2022"
+          date="ago/2021- jan/2022"
           iconStyle={{
             background:
               "linear-gradient(to right top, #6d327c, #485DA6, #00a1ba, #00BF98, #36C486",
@@ -637,7 +654,7 @@ const Experience = () => {
                       <stop
                         offset="1"
                         stopColor="#538BF0"
-                      stopOpacity="0"
+                        stopOpacity="0"
                       ></stop>
                     </linearGradient>
                     <linearGradient
@@ -652,7 +669,7 @@ const Experience = () => {
                       <stop
                         offset="1"
                         stopColor="#538BF0"
-                      stopOpacity="0"
+                        stopOpacity="0"
                       ></stop>
                     </linearGradient>
                   </defs>
@@ -686,7 +703,7 @@ const Experience = () => {
                       <stop
                         offset="1"
                         stopColor="#538BF0"
-                      stopOpacity="0"
+                        stopOpacity="0"
                       ></stop>
                     </linearGradient>
                     <linearGradient
@@ -701,7 +718,7 @@ const Experience = () => {
                       <stop
                         offset="1"
                         stopColor="#538BF0"
-                      stopOpacity="0"
+                        stopOpacity="0"
                       ></stop>
                     </linearGradient>
                   </defs>
@@ -735,7 +752,7 @@ const Experience = () => {
                       <stop
                         offset="1"
                         stopColor="#538BF0"
-                      stopOpacity="0"
+                        stopOpacity="0"
                       ></stop>
                     </linearGradient>
                     <linearGradient
@@ -750,7 +767,7 @@ const Experience = () => {
                       <stop
                         offset="1"
                         stopColor="#538BF0"
-                      stopOpacity="0"
+                        stopOpacity="0"
                       ></stop>
                     </linearGradient>
                   </defs>
@@ -784,7 +801,7 @@ const Experience = () => {
                       <stop
                         offset="1"
                         stopColor="#538BF0"
-                      stopOpacity="0"
+                        stopOpacity="0"
                       ></stop>
                     </linearGradient>
                     <linearGradient
@@ -799,7 +816,7 @@ const Experience = () => {
                       <stop
                         offset="1"
                         stopColor="#538BF0"
-                      stopOpacity="0"
+                        stopOpacity="0"
                       ></stop>
                     </linearGradient>
                   </defs>
@@ -833,7 +850,7 @@ const Experience = () => {
                       <stop
                         offset="1"
                         stopColor="#538BF0"
-                      stopOpacity="0"
+                        stopOpacity="0"
                       ></stop>
                     </linearGradient>
                     <linearGradient
@@ -848,7 +865,7 @@ const Experience = () => {
                       <stop
                         offset="1"
                         stopColor="#538BF0"
-                      stopOpacity="0"
+                        stopOpacity="0"
                       ></stop>
                     </linearGradient>
                   </defs>
@@ -856,288 +873,6 @@ const Experience = () => {
               </h6>
             </div>
             {/* <span>React - Vue - TypeScript - JavaScript - Sass - Styled Components - dhsahdshadhsa</span> */}
-          </div>
-        </VerticalTimelineElement>
-        <VerticalTimelineElement
-          className="vertical-timeline-element--work"
-          contentStyle={{
-            background:
-              "linear-gradient(to right top, #6d327c, #485DA6, #00a1ba, #00BF98, #36C486",
-            color: "#fff",
-          }}
-          contentArrowStyle={{ borderRight: "7px solid  #1a7f81" }}
-          date="2020 - 2021"
-          iconStyle={{
-            background:
-              "linear-gradient(to right top, #6d327c, #485DA6, #00a1ba, #00BF98, #36C486",
-            color: "#fff",
-          }}
-          icon={<MdWorkOff />}
-        >
-          <div className="skils-span">
-            <span>Jquery / Boostrap</span>
-          </div>
-
-          <h3 className="vertical-timeline-element-title">
-            Autônomo · Freelance{" "}
-          </h3>
-          <h4 className="vertical-timeline-element-subtitle">
-            Desenvolvedor de software
-          </h4>
-          {/* <pclassName="p-skils">
-    Desenvolvedor Front end 
-    implementar novas funcionalidades e dar manutenções sob demanda
-    </pclassName=> */}
-          <div className="skils">
-            <div className="w-100 hidden py-3" id="section-03">
-              <h6 className="slider-text-1 flex-start-row">
-                Jquery
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="32"
-                  height="32"
-                  viewBox="0 0 32 32"
-                  fill="none"
-                  data-inject-url="https://www.nyousefali.com.br/svg/icon-4star.svg"
-                  className="w-auto mx"
-                  style={{ minWidth: "32px" }}
-                >
-                  <path
-                    d="M16.4899 7.89358L17.584 13.2467C17.7044 13.8355 18.1645 14.2956 18.7533 14.416L24.1064 15.5101C24.6396 15.6191 24.6396 16.3809 24.1064 16.4899L18.7533 17.584C18.1645 17.7044 17.7044 18.1645 17.584 18.7533L16.4899 24.1064C16.3809 24.6396 15.6191 24.6396 15.5101 24.1064L14.416 18.7533C14.2956 18.1645 13.8355 17.7044 13.2467 17.584L7.89359 16.4899C7.36041 16.3809 7.36042 15.6191 7.89358 15.5101L13.2467 14.416C13.8355 14.2956 14.2956 13.8355 14.416 13.2467L15.5101 7.89359C15.6191 7.36041 16.3809 7.36042 16.4899 7.89358Z"
-                    fill="url(#paint0_linear--inject-25)"
-                    stroke="url(#paint1_linear--inject-25)"
-                  ></path>
-                  <defs>
-                    <linearGradient
-                      id="paint0_linear--inject-25"
-                      x1="29"
-                      y1="3"
-                      x2="3"
-                      y2="29"
-                      gradientUnits="userSpaceOnUse"
-                    >
-                      <stop stopColor="#2DC7ED"></stop>
-                      <stop
-                        offset="1"
-                        stopColor="#538BF0"
-                      stopOpacity="0"
-                      ></stop>
-                    </linearGradient>
-                    <linearGradient
-                      id="paint1_linear--inject-25"
-                      x1="29"
-                      y1="3"
-                      x2="3"
-                      y2="29"
-                      gradientUnits="userSpaceOnUse"
-                    >
-                      <stop stopColor="#2DC7ED"></stop>
-                      <stop
-                        offset="1"
-                        stopColor="#538BF0"
-                      stopOpacity="0"
-                      ></stop>
-                    </linearGradient>
-                  </defs>
-                </svg>
-                Git
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="32"
-                  height="32"
-                  viewBox="0 0 32 32"
-                  fill="none"
-                  data-inject-url="https://www.nyousefali.com.br/svg/icon-4star.svg"
-                  className="w-auto mx"
-                  style={{ minWidth: "32px" }}
-                >
-                  <path
-                    d="M16.4899 7.89358L17.584 13.2467C17.7044 13.8355 18.1645 14.2956 18.7533 14.416L24.1064 15.5101C24.6396 15.6191 24.6396 16.3809 24.1064 16.4899L18.7533 17.584C18.1645 17.7044 17.7044 18.1645 17.584 18.7533L16.4899 24.1064C16.3809 24.6396 15.6191 24.6396 15.5101 24.1064L14.416 18.7533C14.2956 18.1645 13.8355 17.7044 13.2467 17.584L7.89359 16.4899C7.36041 16.3809 7.36042 15.6191 7.89358 15.5101L13.2467 14.416C13.8355 14.2956 14.2956 13.8355 14.416 13.2467L15.5101 7.89359C15.6191 7.36041 16.3809 7.36042 16.4899 7.89358Z"
-                    fill="url(#paint0_linear--inject-29)"
-                    stroke="url(#paint1_linear--inject-29)"
-                  ></path>
-                  <defs>
-                    <linearGradient
-                      id="paint0_linear--inject-29"
-                      x1="29"
-                      y1="3"
-                      x2="3"
-                      y2="29"
-                      gradientUnits="userSpaceOnUse"
-                    >
-                      <stop stopColor="#2DC7ED"></stop>
-                      <stop
-                        offset="1"
-                        stopColor="#538BF0"
-                      stopOpacity="0"
-                      ></stop>
-                    </linearGradient>
-                    <linearGradient
-                      id="paint1_linear--inject-29"
-                      x1="29"
-                      y1="3"
-                      x2="3"
-                      y2="29"
-                      gradientUnits="userSpaceOnUse"
-                    >
-                      <stop stopColor="#2DC7ED"></stop>
-                      <stop
-                        offset="1"
-                        stopColor="#538BF0"
-                      stopOpacity="0"
-                      ></stop>
-                    </linearGradient>
-                  </defs>
-                </svg>
-                JavaScript
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="32"
-                  height="32"
-                  viewBox="0 0 32 32"
-                  fill="none"
-                  data-inject-url="https://www.nyousefali.com.br/svg/icon-4star.svg"
-                  className="w-auto mx"
-                  style={{ minWidth: "32px" }}
-                >
-                  <path
-                    d="M16.4899 7.89358L17.584 13.2467C17.7044 13.8355 18.1645 14.2956 18.7533 14.416L24.1064 15.5101C24.6396 15.6191 24.6396 16.3809 24.1064 16.4899L18.7533 17.584C18.1645 17.7044 17.7044 18.1645 17.584 18.7533L16.4899 24.1064C16.3809 24.6396 15.6191 24.6396 15.5101 24.1064L14.416 18.7533C14.2956 18.1645 13.8355 17.7044 13.2467 17.584L7.89359 16.4899C7.36041 16.3809 7.36042 15.6191 7.89358 15.5101L13.2467 14.416C13.8355 14.2956 14.2956 13.8355 14.416 13.2467L15.5101 7.89359C15.6191 7.36041 16.3809 7.36042 16.4899 7.89358Z"
-                    fill="url(#paint0_linear--inject-14)"
-                    stroke="url(#paint1_linear--inject-14)"
-                  ></path>
-                  <defs>
-                    <linearGradient
-                      id="paint0_linear--inject-14"
-                      x1="29"
-                      y1="3"
-                      x2="3"
-                      y2="29"
-                      gradientUnits="userSpaceOnUse"
-                    >
-                      <stop stopColor="#2DC7ED"></stop>
-                      <stop
-                        offset="1"
-                        stopColor="#538BF0"
-                      stopOpacity="0"
-                      ></stop>
-                    </linearGradient>
-                    <linearGradient
-                      id="paint1_linear--inject-14"
-                      x1="29"
-                      y1="3"
-                      x2="3"
-                      y2="29"
-                      gradientUnits="userSpaceOnUse"
-                    >
-                      <stop stopColor="#2DC7ED"></stop>
-                      <stop
-                        offset="1"
-                        stopColor="#538BF0"
-                      stopOpacity="0"
-                      ></stop>
-                    </linearGradient>
-                  </defs>
-                </svg>
-                Boostrap
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="32"
-                  height="32"
-                  viewBox="0 0 32 32"
-                  fill="none"
-                  data-inject-url="https://www.nyousefali.com.br/svg/icon-4star.svg"
-                  className="w-auto mx"
-                  style={{ minWidth: "32px" }}
-                >
-                  <path
-                    d="M16.4899 7.89358L17.584 13.2467C17.7044 13.8355 18.1645 14.2956 18.7533 14.416L24.1064 15.5101C24.6396 15.6191 24.6396 16.3809 24.1064 16.4899L18.7533 17.584C18.1645 17.7044 17.7044 18.1645 17.584 18.7533L16.4899 24.1064C16.3809 24.6396 15.6191 24.6396 15.5101 24.1064L14.416 18.7533C14.2956 18.1645 13.8355 17.7044 13.2467 17.584L7.89359 16.4899C7.36041 16.3809 7.36042 15.6191 7.89358 15.5101L13.2467 14.416C13.8355 14.2956 14.2956 13.8355 14.416 13.2467L15.5101 7.89359C15.6191 7.36041 16.3809 7.36042 16.4899 7.89358Z"
-                    fill="url(#paint0_linear--inject-37)"
-                    stroke="url(#paint1_linear--inject-37)"
-                  ></path>
-                  <defs>
-                    <linearGradient
-                      id="paint0_linear--inject-37"
-                      x1="29"
-                      y1="3"
-                      x2="3"
-                      y2="29"
-                      gradientUnits="userSpaceOnUse"
-                    >
-                      <stop stopColor="#2DC7ED"></stop>
-                      <stop
-                        offset="1"
-                        stopColor="#538BF0"
-                      stopOpacity="0"
-                      ></stop>
-                    </linearGradient>
-                    <linearGradient
-                      id="paint1_linear--inject-37"
-                      x1="29"
-                      y1="3"
-                      x2="3"
-                      y2="29"
-                      gradientUnits="userSpaceOnUse"
-                    >
-                      <stop stopColor="#2DC7ED"></stop>
-                      <stop
-                        offset="1"
-                        stopColor="#538BF0"
-                      stopOpacity="0"
-                      ></stop>
-                    </linearGradient>
-                  </defs>
-                </svg>
-                Developer Front-End
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="32"
-                  height="32"
-                  viewBox="0 0 32 32"
-                  fill="none"
-                  data-inject-url="https://www.nyousefali.com.br/svg/icon-4star.svg"
-                  className="w-auto mx"
-                  style={{ minWidth: "32px" }}
-                >
-                  <path
-                    d="M16.4899 7.89358L17.584 13.2467C17.7044 13.8355 18.1645 14.2956 18.7533 14.416L24.1064 15.5101C24.6396 15.6191 24.6396 16.3809 24.1064 16.4899L18.7533 17.584C18.1645 17.7044 17.7044 18.1645 17.584 18.7533L16.4899 24.1064C16.3809 24.6396 15.6191 24.6396 15.5101 24.1064L14.416 18.7533C14.2956 18.1645 13.8355 17.7044 13.2467 17.584L7.89359 16.4899C7.36041 16.3809 7.36042 15.6191 7.89358 15.5101L13.2467 14.416C13.8355 14.2956 14.2956 13.8355 14.416 13.2467L15.5101 7.89359C15.6191 7.36041 16.3809 7.36042 16.4899 7.89358Z"
-                    fill="url(#paint0_linear--inject-30)"
-                    stroke="url(#paint1_linear--inject-30)"
-                  ></path>
-                  <defs>
-                    <linearGradient
-                      id="paint0_linear--inject-30"
-                      x1="29"
-                      y1="3"
-                      x2="3"
-                      y2="29"
-                      gradientUnits="userSpaceOnUse"
-                    >
-                      <stop stopColor="#2DC7ED"></stop>
-                      <stop
-                        offset="1"
-                        stopColor="#538BF0"
-                      stopOpacity="0"
-                      ></stop>
-                    </linearGradient>
-                    <linearGradient
-                      id="paint1_linear--inject-30"
-                      x1="29"
-                      y1="3"
-                      x2="3"
-                      y2="29"
-                      gradientUnits="userSpaceOnUse"
-                    >
-                      <stop stopColor="#2DC7ED"></stop>
-                      <stop
-                        offset="1"
-                        stopColor="#538BF0"
-                      stopOpacity="0"
-                      ></stop>
-                    </linearGradient>
-                  </defs>
-                </svg>
-              </h6>
-            </div>
           </div>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -2154,7 +1889,7 @@ const Experience = () => {
             </h3>
           </div>
           <div className="wrapper">
-          <a href="https://www.linkedin.com/in/rafael-yokoyama/" target="_blank" className="icon" rel="noreferrer">
+            <a href="https://www.linkedin.com/in/rafael-yokoyama/" target="_blank" className="icon" rel="noreferrer">
               <i className="fab fa-linkedin"></i>
             </a>
             <a href="https://github.com/Rafael-Yokoyama" target="_blank" className="icon" rel="noreferrer">
@@ -2241,7 +1976,7 @@ const Experience = () => {
           <img src={logo} alt="" />
         </div>
         <div className="grid-12 p-0 pt-2 flex-center">
-          <p>Rafael Yokoyama © 2022</p> <br />
+          <p>Rafael Yokoyama © 2023</p> <br />
         </div>
       </footer>
     </Container>
