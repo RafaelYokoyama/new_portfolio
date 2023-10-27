@@ -1,6 +1,6 @@
 import { createGlobalStyle } from "styled-components";
 import { normalize } from "styled-normalize";
-import { devices } from "./devices";
+import { devices } from "../lib/devices";
 import theme from "./theme";
 
 const GlobalStyle = createGlobalStyle`
@@ -9,12 +9,8 @@ ${normalize}
 *{
   margin:0;
   padding:0;
-  box-sizing:border-box;
-  transition:background ease 0.2s; 
+  box-sizing:border-box; 
 }
-
-
-
 
 h1{
   margin: 0;
@@ -38,7 +34,6 @@ button {
      -webkit-box-shadow: none;
    }
  
-
  button , a {
    transition: all ease 0.4s;
    &:hover{
